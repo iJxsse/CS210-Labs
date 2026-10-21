@@ -1,5 +1,7 @@
+package Lab1;
+
 /**
- * A Java implementation of the Sieve of Eratosthenes algorithm.
+ * A Java implementation of the Lab1.Sieve of Eratosthenes algorithm.
  * This program finds all prime numbers up to a given number n.
  **/
 
@@ -8,7 +10,7 @@
  *       Increment with counter++,
  *       Run the program and print the value of the counter variable.
  *
- *       Using the Sieve, I was required to verify, for
+ *       Using the Lab1.Sieve, I was required to verify, for
  *       each positive even number, if the Goldbach Conjecture is true and to print the output.
  *       The Goldbach Conjecture: Every even integer greater than 2 can be expressed as the sum of two prime numbers
  *
@@ -22,7 +24,7 @@ import java.util.Arrays;
 public class Sieve {
 
     /*
-     * Main method to demonstrate the Sieve of Eratosthenes.
+     * Main method to demonstrate the Lab1.Sieve of Eratosthenes.
      */
 
     public static int counter = 0;
